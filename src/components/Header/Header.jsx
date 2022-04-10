@@ -7,8 +7,14 @@ import search from "../../img/headerIcons/search.svg"
 import filter from "../../img/headerIcons/filter.svg"
 import timer from "../../img/headerIcons/timer.svg"
 import cart from "../../img/headerIcons/cart.svg"
+import { useSelector } from 'react-redux'
 
 const Header = () => {
+
+
+    const cartProducts = useSelector(state=>state?.allProducts?.cart)
+    const totalPrice = cartProducts.reduce((acc,product) =>acc+=+product.pricing,0)
+    console.log(cartProducts)
     return (
         <div className='header'>
             <div className='header-flex'>
@@ -45,7 +51,7 @@ const Header = () => {
                         <img src={cart}/>
                     </div>
                     <div className='header-cart-total'>
-                    $230.80
+                    ${totalPrice}
                     </div>
                 </div>
 

@@ -3,17 +3,16 @@
         overflow: hidden;
     }
     .store-banner{
-        position: relative;
+        
         border: 2px solid rgb(212, 212, 212);
         width: 600px;
-        height: 260px;
+        height: 220px;
         border-radius: 10px;
         overflow: hidden;
     }
     .store-banner-img img{
-        position: absolute;
         object-fit: cover;
-        width: 600px;
+        width: 700px;
     }
 
     .store-banner-shop{
@@ -23,27 +22,26 @@
 
     .store-shop-content{
         width:120px;
-        height: 270px;
+        height: 220px;
         background-color: white;
         margin-left: 10px;
         align-items: center;
         border-radius: 10px;
     }
     .store-shop-content-top1{
-        margin-top:28px;
-        margin-left: 14px;
-        margin-right: 14px;
-        background-color: rgb(255, 255, 255);
+        margin-top:6px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: flex;
         justify-content: center;
-        padding: 20px;
-        transition: 0.s ease;
+        padding: 10px;
+        transition: 0.5 ease;
         cursor: pointer;
     }
     .store-shop-content-top1.active{
-        margin-top:28px;
-        margin-left: 14px;
-        margin-right: 14px;
+        margin-bottom:6px;
+        margin-left: 10px;
+        margin-right: 10px;
         background-color: #2E3456;
         display: flex;
         justify-content: center;
@@ -52,25 +50,24 @@
         cursor: pointer;
     }
     .store-shop-content-top2{
-        margin-top:28px;
-        margin-left: 14px;
-        margin-right: 14px;
-        background-color: rgb(255, 255, 255);
+        margin-top:30px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: 0px;
         cursor: pointer;
-        transition: .5s ease;
+
     }
     .store-shop-content-top2.active{
-        margin-top:28px;
-        margin-left: 14px;
-        margin-right: 14px;
+        margin-top:30px;
+        margin-left: 10px;
+        margin-right: 10px;
         background-color: #2E3456;
         border-radius: 10px;
         display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: 16px;
         cursor: pointer;
     }
 
@@ -85,7 +82,7 @@
         font-weight: 600;
     }
     .store-banner-container{
-        width:70%;
+        width:80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -239,7 +236,7 @@
         overflow: hidden;
     }
     .store-banner-img img{
-        position: absolute;
+        /* position: absolute; */
         object-fit: cover;
         width: 800px;
     }
@@ -264,8 +261,7 @@
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: center;
-        padding: 20px;
-        transition: 0.s ease;
+        padding: 30px;
         cursor: pointer;
     }
     .store-shop-content-top1.active{
@@ -288,7 +284,7 @@
         justify-content: center;
         padding: 20px;
         cursor: pointer;
-        transition: .5s ease;
+        
     }
     .store-shop-content-top2.active{
         margin-top:28px;

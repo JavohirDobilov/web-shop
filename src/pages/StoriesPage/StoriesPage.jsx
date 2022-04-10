@@ -25,105 +25,39 @@ import product3 from "../../img/ProductCardImage/image 13.svg"
 import product4 from "../../img/ProductCardImage/image 14.svg"
 
 
+
+
 const StoriesPage = () => {
 
 
+    
 
     const [filterBtn, setFilterBtn] = useState(1)
 
 
+    
+
 
 
     const products = [
-        {id:1,image:"",title:"",pricing:""},
-        {id:2,image:"",title:"",pricing:""},
-        {id:3,image:"",title:"",pricing:""},
-        {id:4,image:"",title:"",pricing:""},
-        {id:5,image:"",title:"",pricing:""}
+        {id:1,image:product1,title:"Calavo Hass Avocados",pricing:"5.4"},
+        {id:2,image:product2,title:"Lemons (Large) 8",pricing:"3.8"},
+        {id:3,image:product3,title:"Jumbo Cantaloupe",pricing:"10.5"},
+        {id:4,image:product4,title:"Zespri Kiwifruit 2 lb",pricing:"4.9"},
+        {id:5,image:product2,title:"Hass Large Avocado",pricing:"4.9"}
     ]
 
     const salesSlider = [
-        {
-            id: 1,
-            title: "Sale",
-            text: "Promocode down",
-            btnText: "ORANGE",
-            color: "#ff7700",
-            image: apelsin
-        },
-        {
-            id: 2,
-            title: "Tomato",
-            text: "Buy affortibel",
-            btnText: "PRICING",
-            color: "rgb(219, 34, 34)",
-            image: pomidor
-        },
-        {
-            id: 3,
-            title: "Sale 40%",
-            text: "Very tasty pasta",
-            btnText: "FOOD 40%",
-            color: "rgb(117, 206, 0)",
-            image: cuck
-        },
-        {
-            id: 4,
-            title: "Sale",
-            text: "Very fullPack",
-            btnText: "ORANGE",
-            color: "#7753F6",
-            image: cuck
-        },
-        {
-            id: 5,
-            title: "Collection",
-            text: "Sale full Pack",
-            btnText: "COLLECT",
-            color: "#ff7700",
-            image: apelsin
-        },
-
-        {
-            id: 6,
-            title: "Sale",
-            text: "Promocode down",
-            btnText: "ORANGE",
-            color: "#ff7700",
-            image: apelsin
-        },
-        {
-            id: 7,
-            title: "Tomato",
-            text: "Buy affortibel",
-            btnText: "PRICING",
-            color: "rgb(247, 0, 0)",
-            image: pomidor
-        },
-        {
-            id: 8,
-            title: "Sale",
-            text: "Promocode down",
-            btnText: "ORANGE",
-            color: "#ff7700",
-            image: apelsin
-        },
-        {
-            id: 9,
-            title: "Tomato",
-            text: "Buy affortibel",
-            btnText: "PRICING",
-            color: "rgb(247, 0, 0)",
-            image: pomidor
-        },
-        {
-            id: 10,
-            title: "Sale",
-            text: "Very tasty pasta",
-            btnText: "FOOD 40",
-            color: "rgb(117, 206, 0)",
-            image: cuck
-        },
+        {id: 1,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
+        {id: 2,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(219, 34, 34)",image: pomidor},
+        {id: 3,title: "Sale 40%",text: "Very tasty pasta",btnText: "FOOD 40%",color: "rgb(117, 206, 0)",image: cuck},
+        {id: 4,title: "Sale",text: "Very fullPack",btnText: "ORANGE",color: "#7753F6",image: cuck},
+        {id: 5,title: "Collection",text: "Sale full Pack",btnText: "COLLECT",color: "#ff7700",image: apelsin},
+        {id: 6,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
+        {id: 7,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(247, 0, 0)",image: pomidor},
+        {id: 8,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
+        {id: 9,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(247, 0, 0)",image: pomidor},
+        {id: 10,title: "Sale",text: "Very tasty pasta",btnText: "FOOD 40",color: "rgb(117, 206, 0)",image: cuck},
     ]
     const len = salesSlider.length
 
@@ -234,7 +168,7 @@ const StoriesPage = () => {
             <div className='store-products'>
                 <div className='store-products-items'>
                     {products.map(item=>(
-                        <ProductCard product = {item}/>
+                        <ProductCard key={item.id} product = {item}/>
                     ))}
                 </div>
             </div>
