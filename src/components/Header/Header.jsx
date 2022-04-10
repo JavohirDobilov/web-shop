@@ -8,12 +8,16 @@ import filter from "../../img/headerIcons/filter.svg"
 import timer from "../../img/headerIcons/timer.svg"
 import cart from "../../img/headerIcons/cart.svg"
 import { useSelector } from 'react-redux'
+import { DatePicker, Space } from 'antd';
+import 'antd/dist/antd.css';
+
+const { RangePicker } = DatePicker;
 
 const Header = () => {
 
 
-    const cartProducts = useSelector(state=>state?.allProducts?.cart)
-    const totalPrice = cartProducts.reduce((acc,product) =>acc+=+product.pricing,0)
+    const cartProducts = useSelector(state => state?.allProducts?.cart)
+    const totalPrice = cartProducts.reduce((acc, product) => acc += +product.pricing, 0)
     console.log(cartProducts)
     return (
         <div className='header'>
@@ -39,19 +43,22 @@ const Header = () => {
                     <img src={filter} />
                 </div>
                 <div className='header-timer'>
-                   <div className='header-timer-circle'>
-                   <img src={timer} />
-                    <div className="header-timer-data">
-                        By 09:00 — 23:00
+                    <div className='header-timer-circle'>
+                        <img src={timer} />
+                        <div className="header-timer-data">
+                            <Space direction="horizontal" size={10}>
+                                <RangePicker showTime />
+                            </Space>
+                            
+                        </div>
                     </div>
-                   </div>
                 </div>
                 <div className='header-cart-block'>
                     <div className='header-cart-block-circle'>
-                        <img src={cart}/>
+                        <img src={cart} />
                     </div>
                     <div className='header-cart-total'>
-                    ${totalPrice}
+                        ${totalPrice}
                     </div>
                 </div>
 
