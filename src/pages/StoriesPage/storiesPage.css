@@ -1,0 +1,882 @@
+@media only screen and (min-width:991px){
+    .store{
+        overflow: hidden;
+    }
+    .store-banner{
+        position: relative;
+        border: 2px solid rgb(212, 212, 212);
+        width: 600px;
+        height: 260px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .store-banner-img img{
+        position: absolute;
+        object-fit: cover;
+        width: 600px;
+    }
+
+    .store-banner-shop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .store-shop-content{
+        width:120px;
+        height: 270px;
+        background-color: white;
+        margin-left: 10px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .store-shop-content-top1{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        transition: 0.s ease;
+        cursor: pointer;
+    }
+    .store-shop-content-top1.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .store-shop-content-top2{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    .store-shop-content-top2.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .store-banner-container-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 10px;
+    }
+    .store-banner-container-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .store-banner-container{
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-circle{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #D0D3DB;
+    }
+
+
+    .store-banner-container-info{
+        display: flex;
+        font-size: 12px;
+        width: 18%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-dilevry{
+        font-size: 12px;
+        display: flex;
+        width: 26%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-saved{
+        display: flex;
+        font-size: 12px;
+        width: 12%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-star{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sales-slider{
+        width: 100%;
+        overflow-x: scroll;
+        /* background-color: #2E3456; */
+    }
+    .sales-slider-items {
+      height: 240px;
+    }
+    .sales-slider::-webkit-scrollbar-track {
+        background: #f5f5f5;
+      }
+      
+      .sales-slider::-webkit-scrollbar {
+        width: 2px;
+
+        height: 4px;
+        background-color: #e3e3e3;
+      }
+      
+      .sales-slider::-webkit-scrollbar-thumb {
+        background-color: #dfdfdf;
+        border-radius: 10px;
+      }
+
+
+      .sales-buttons{
+        padding-top: 24px;
+    }
+    
+    .sales-button-filter{
+        height: 32px;
+        width: 32px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    .sales-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sales-button-filts{
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        font-size: 12px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .sales-button-filts.active{
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        font-size: 12px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .store-seAll{
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .store-seAll-btn{
+        display: flex;
+
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .store-seAll-btn img{
+        width: 20px;
+    }
+    .store-seAll-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .store-products-items{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media only screen and (min-width:1200px){
+    .store{
+        overflow: hidden;
+    }
+    .store-banner{
+        position: relative;
+        border: 2px solid rgb(212, 212, 212);
+        width: 800px;
+        height: 260px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .store-banner-img img{
+        position: absolute;
+        object-fit: cover;
+        width: 800px;
+    }
+
+    .store-banner-shop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .store-shop-content{
+        width:120px;
+        height: 270px;
+        background-color: white;
+        margin-left: 10px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .store-shop-content-top1{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        transition: 0.s ease;
+        cursor: pointer;
+    }
+    .store-shop-content-top1.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .store-shop-content-top2{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    .store-shop-content-top2.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .store-banner-container-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 10px;
+    }
+    .store-banner-container-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .store-banner-container{
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-circle{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #D0D3DB;
+    }
+
+
+    .store-banner-container-info{
+        display: flex;
+        font-size: 12px;
+        width: 18%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-dilevry{
+        font-size: 12px;
+        display: flex;
+        width: 26%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-saved{
+        display: flex;
+        font-size: 12px;
+        width: 12%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-star{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sales-slider{
+        width: 100%;
+        overflow-x: scroll;
+        /* background-color: #2E3456; */
+    }
+    .sales-slider-items {
+      height: 240px;
+    }
+    .sales-slider::-webkit-scrollbar-track {
+        background: #f5f5f5;
+      }
+      
+      .sales-slider::-webkit-scrollbar {
+        width: 2px;
+
+        height: 4px;
+        background-color: #e3e3e3;
+      }
+      
+      .sales-slider::-webkit-scrollbar-thumb {
+        background-color: #dfdfdf;
+        border-radius: 10px;
+      }
+
+
+      .sales-buttons{
+        padding-top: 24px;
+    }
+    
+    .sales-button-filter{
+        height: 32px;
+        width: 32px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    .sales-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sales-button-filts{
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        font-size: 12px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .sales-button-filts.active{
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        font-size: 12px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .store-seAll{
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .store-seAll-btn{
+        display: flex;
+
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .store-seAll-btn img{
+        width: 20px;
+    }
+    .store-seAll-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .store-products-items{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media only screen and (min-width:1400px){
+    .store{
+        overflow: hidden;
+    }
+    .store-banner{
+        position: relative;
+        border: 2px solid rgb(212, 212, 212);
+        width: 987px;
+        height: 280px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .store-banner-img img{
+        position: absolute;
+        object-fit: cover;
+        width: 400;
+    }
+
+    .store-banner-shop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .store-shop-content{
+        width:138px;
+        height: 282px;
+        background-color: white;
+        margin-left: 14px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .store-shop-content-top1{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        transition: 0.s ease;
+        cursor: pointer;
+    }
+    .store-shop-content-top1.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .store-shop-content-top2{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    .store-shop-content-top2.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .store-banner-container-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 10px;
+    }
+    .store-banner-container-title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .store-banner-container{
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-circle{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #D0D3DB;
+    }
+
+
+    .store-banner-container-info{
+        display: flex;
+        width: 14%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-dilevry{
+        display: flex;
+        width: 22%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-saved{
+        display: flex;
+        width: 10%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-star{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sales-slider{
+        width: 100%;
+        overflow-x: scroll;
+        /* background-color: #2E3456; */
+    }
+    .sales-slider-items {
+      height: 240px;
+    }
+    .sales-slider::-webkit-scrollbar-track {
+        background: #f5f5f5;
+      }
+      
+      .sales-slider::-webkit-scrollbar {
+        width: 2px;
+
+        height: 4px;
+        background-color: #e3e3e3;
+      }
+      
+      .sales-slider::-webkit-scrollbar-thumb {
+        background-color: #dfdfdf;
+        border-radius: 10px;
+      }
+
+
+      .sales-buttons{
+        padding-top: 24px;
+    }
+    
+    .sales-button-filter{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    .sales-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sales-button-filts{
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 18px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .sales-button-filts.active{
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 18px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .store-seAll{
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .store-seAll-btn{
+        display: flex;
+        justify-content: space-around;
+    }
+    .store-products-items{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1600px){
+    .store{
+        overflow: hidden;
+    }
+    .store-banner{
+        position: relative;
+        border: 2px solid rgb(212, 212, 212);
+        width: 987px;
+        height: 280px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .store-banner-img img{
+        position: absolute;
+        object-fit: cover;
+        width: 400;
+    }
+
+    .store-banner-shop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .store-shop-content{
+        width:138px;
+        height: 282px;
+        background-color: white;
+        margin-left: 14px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .store-shop-content-top1{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        transition: 0.s ease;
+        cursor: pointer;
+    }
+    .store-shop-content-top1.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .store-shop-content-top2{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    .store-shop-content-top2.active{
+        margin-top:28px;
+        margin-left: 14px;
+        margin-right: 14px;
+        background-color: #2E3456;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .store-banner-container-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 10px;
+    }
+    .store-banner-container-title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .store-banner-container{
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-circle{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #D0D3DB;
+    }
+
+
+    .store-banner-container-info{
+        display: flex;
+        width: 14%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-dilevry{
+        display: flex;
+        width: 22%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-container-saved{
+        display: flex;
+        width: 10%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .store-banner-star{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sales-slider{
+        width: 100%;
+        overflow-x: scroll;
+        /* background-color: #2E3456; */
+    }
+    .sales-slider-items {
+      height: 240px;
+    }
+    .sales-slider::-webkit-scrollbar-track {
+        background: #f5f5f5;
+      }
+      
+      .sales-slider::-webkit-scrollbar {
+        width: 2px;
+
+        height: 4px;
+        background-color: #e3e3e3;
+      }
+      
+      .sales-slider::-webkit-scrollbar-thumb {
+        background-color: #dfdfdf;
+        border-radius: 10px;
+      }
+
+
+      .sales-buttons{
+        padding-top: 24px;
+    }
+    
+    .sales-button-filter{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    .sales-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sales-button-filts{
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 18px;
+        color: rgb(148, 148, 148);
+        font-weight: 600;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .sales-button-filts.active{
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 18px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .store-seAll{
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .store-seAll-btn{
+        display: flex;
+        justify-content: space-around;
+    }
+    .store-products-items{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+

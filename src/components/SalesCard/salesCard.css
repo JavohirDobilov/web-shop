@@ -1,0 +1,231 @@
+@media only screen and (min-width:991px){
+    .sales-card{
+        margin: 40px 20px;
+        position: relative;
+        background-color: #ff7700;
+        border-radius: 10px;
+        width: 180px;
+        height: 120px;
+        overflow: hidden;
+        box-shadow: -10px 20px 40px rgb(214, 214, 214);
+    }
+    
+    .sales-card-image{
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+    }
+    .sales-card-image img{
+        width: 90px;
+    }
+    .sales-card-content{
+        padding: 16px;
+    }
+    .sales-card-title{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .sales-card-text{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .sales-card-fool{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 6px 8px;
+        width: 100px;
+        height: 20px;
+        background-color: white;
+        color: red;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width:1100px){
+    .sales-card{
+        margin: 40px 20px;
+        position: relative;
+        background-color: #ff7700;
+        border-radius: 10px;
+        width: 200px;
+        height: 120px;
+        overflow: hidden;
+        box-shadow: -10px 20px 40px rgb(214, 214, 214);
+    }
+    
+    .sales-card-image{
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+    }
+    .sales-card-image img{
+        width: 90px;
+    }
+    .sales-card-content{
+        padding: 16px;
+    }
+    .sales-card-title{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .sales-card-text{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .sales-card-fool{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 6px 8px;
+        width: 80px;
+        height: 18px;
+        background-color: white;
+        color: red;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .sales-card{
+        margin: 40px 20px;
+        position: relative;
+        background-color: #ff7700;
+        border-radius: 10px;
+        width: 220px;
+        height: 130px;
+        overflow: hidden;
+        box-shadow: -10px 20px 40px rgb(214, 214, 214);
+    }
+    
+    .sales-card-image{
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+    }
+    .sales-card-image img{
+        width: 110px;
+    }
+    .sales-card-content{
+        padding: 20px;
+    }
+    .sales-card-title{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .sales-card-text{
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .sales-card-fool{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 6px 8px;
+        width: 80px;
+        height: 18px;
+        background-color: white;
+        color: red;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media only screen and (min-width:1400px){
+    .sales-card{
+        margin: 40px 20px;
+        position: relative;
+        background-color: #ff7700;
+        border-radius: 10px;
+        width: 250px;
+        height: 150px;
+        overflow: hidden;
+        box-shadow: -10px 20px 40px rgb(214, 214, 214);
+    }
+    
+    .sales-card-image{
+        position: absolute;
+        right: -30px;
+        bottom: -34px;
+    }
+    .sales-card-content{
+        padding: 20px;
+    }
+    .sales-card-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+    .sales-card-text{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .sales-card-fool{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 6px 8px;
+        width: 100px;
+        height: 20px;
+        background-color: white;
+        color: red;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width:1600px){
+    .sales-card{
+        margin: 40px 20px;
+        position: relative;
+        background-color: #ff7700;
+        border-radius: 10px;
+        width: 250px;
+        height: 150px;
+        overflow: hidden;
+        box-shadow: -10px 20px 40px rgb(214, 214, 214);
+    }
+    
+    .sales-card-image{
+        position: absolute;
+        right: -30px;
+        bottom: -34px;
+    }
+    .sales-card-content{
+        padding: 20px;
+    }
+    .sales-card-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+    .sales-card-text{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .sales-card-fool{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 6px 8px;
+        width: 100px;
+        height: 20px;
+        background-color: white;
+        color: red;
+        font-weight: 600;
+    }
+}

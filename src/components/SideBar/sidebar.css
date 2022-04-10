@@ -1,0 +1,569 @@
+@media only screen and (min-width:991px){
+    .sidebar{
+        flex-direction: column;
+    }
+    
+    .sidebar-gbmarket{
+        margin: 6px 0px;
+        background-color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 220px;
+        height: 40px;
+        border-radius: 8px;
+        display: flex;  
+        align-items: center;
+        justify-content: start;
+    }
+    .sidebar-gbmarket img{
+        padding: 22px;
+        width: 16px;
+        height: 20px;
+    }
+    
+    
+    
+    .sidebar-content{
+        /* margin: 6px 6px; */
+        background-color: white;
+        border-radius: 8px;
+        width: 220px;
+        height: 130vh;
+    }
+    
+    .sidebar-avatar-icon{
+        padding: 24px 30px 16px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar-avatar-image img{
+        width: 46px;
+        height: 46px;
+    }
+    .sidebar-avatar-icon1-icon2 img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .sidebar-avatar-name-nomer{
+        text-align: center;
+    }
+    .sidebar-avatar-name{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sidebar-avatar-nomer{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .sidebar-wallet-balance{
+        background-color: #f5f7fa;
+        border-radius: 10px;
+        padding: 20px 0;
+        margin: 8px 24px 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sidebar-wallet-balance-title{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .sidebar-wallet-balance-total{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .sidebar-sharet-wallet{
+        background-color: #ffdebf;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px 28px;
+        border-radius: 10px;
+        padding: 8px;
+        color: #ff0000;
+        font-size: 14px 
+    }
+    .sidebar-links{
+        margin:34px 20px 0;
+    }
+    
+    
+    .sidebar-links-item{
+        display: flex;
+        padding:10px;
+    }
+    .sidebar-links-help-log-item{
+    }
+    .sidebar-links-item-2{
+        display: flex;
+        padding:10px 0 10px 10px;
+    
+    }
+    .sidebar-links-icon img{    
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+    .sidebar-links-title{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+    .sidebar-links-title:hover{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
+    .sidebar-links-title.active{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
+    
+    .sidebar-links-helplog{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .sidebar-links-helplog span{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+     
+    .liner{
+        margin :16px 0;
+        border: 0.8px solid #f7f7f7;
+        width: 100%;
+    }
+    .sidebar-links-helplog img{
+        cursor: pointer;
+        width: 20px;
+        padding: 0 20px 0 0;
+    }
+  }
+
+
+
+
+@media only screen and (min-width:1200px){
+    .sidebar{
+        flex-direction: column;
+    }
+    
+    .sidebar-gbmarket{
+        margin: 6px 0px;
+        background-color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 220px;
+        height: 40px;
+        border-radius: 8px;
+        display: flex;  
+        align-items: center;
+        justify-content: start;
+    }
+    .sidebar-gbmarket img{
+        padding: 22px;
+        width: 16px;
+        height: 20px;
+    }
+    
+    
+    
+    .sidebar-content{
+        /* margin: 6px 6px; */
+        background-color: white;
+        border-radius: 8px;
+        width: 220px;
+        height: 140vh;
+    }
+    
+    .sidebar-avatar-icon{
+        padding: 24px 30px 16px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar-avatar-image img{
+        width: 50px;
+        height: 50px;
+    }
+    .sidebar-avatar-icon1-icon2 img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .sidebar-avatar-name-nomer{
+        text-align: center;
+    }
+    .sidebar-avatar-name{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .sidebar-avatar-nomer{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .sidebar-wallet-balance{
+        background-color: #f5f7fa;
+        border-radius: 10px;
+        padding: 28px 0;
+        margin: 8px 28px 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sidebar-wallet-balance-title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sidebar-wallet-balance-total{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .sidebar-sharet-wallet{
+        background-color: #ffdebf;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px 28px;
+        border-radius: 10px;
+        padding: 8px;
+        color: #ff0000;
+        font-size: 16px 
+    }
+    .sidebar-links{
+        margin:40px 24px 0;
+    }
+    
+    
+    .sidebar-links-item{
+        display: flex;
+        padding:10px;
+    
+    }
+    .sidebar-links-icon img{    
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+    .sidebar-links-title{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+    
+    .sidebar-links-help-log{
+        margin:40px 24px 0;
+    }
+    .sidebar-links-helplog{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebar-links-helplog span{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+     
+    .liner{
+        border: 0.8px solid #E6E7EB;
+        width: 100%;
+    }
+    .sidebar-links-helplog img{
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+  }
+
+
+
+@media only screen and (min-width:1400px){
+    .sidebar{
+        flex-direction: column;
+    }
+    
+    .sidebar-gbmarket{
+        margin: 6px 0px;
+        background-color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 250px;
+        height: 50px;
+        border-radius: 8px;
+        display: flex;  
+        align-items: center;
+        justify-content: start;
+    }
+    .sidebar-gbmarket img{
+        padding: 22px;
+        width: 16px;
+        height: 20px;
+    }
+    
+    
+    
+    .sidebar-content{
+        /* margin: 6px 6px; */
+        background-color: white;
+        border-radius: 8px;
+        width: 250px;
+        height: 120vh;
+    }
+    
+    .sidebar-avatar-icon{
+        padding: 24px 30px 16px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar-avatar-image img{
+        width: 50px;
+        height: 50px;
+    }
+    .sidebar-avatar-icon1-icon2 img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .sidebar-avatar-name-nomer{
+        text-align: center;
+    }
+    .sidebar-avatar-name{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .sidebar-avatar-nomer{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .sidebar-wallet-balance{
+        background-color: #f5f7fa;
+        border-radius: 10px;
+        padding: 28px 0;
+        margin: 8px 28px 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sidebar-wallet-balance-title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sidebar-wallet-balance-total{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .sidebar-sharet-wallet{
+        background-color: #ffdebf;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px 28px;
+        border-radius: 10px;
+        padding: 8px;
+        color: #ff0000;
+        font-size: 16px 
+    }
+    .sidebar-links{
+        margin:40px 24px 0;
+    }
+    
+    
+    .sidebar-links-item{
+        display: flex;
+        padding:10px;
+    
+    }
+    .sidebar-links-icon img{    
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+    .sidebar-links-title{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+    
+    .sidebar-links-help-log{
+        margin:40px 24px 0;
+    }
+    .sidebar-links-helplog{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebar-links-helplog span{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+     
+    .liner{
+        border: 0.8px solid #E6E7EB;
+        width: 100%;
+    }
+    .sidebar-links-helplog img{
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+  }
+
+
+@media only screen and (min-width:1600px){
+    .sidebar{
+        flex-direction: column;
+    }
+    
+    .sidebar-gbmarket{
+        margin: 6px 0px;
+        background-color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 250px;
+        height: 50px;
+        border-radius: 8px;
+        display: flex;  
+        align-items: center;
+        justify-content: start;
+    }
+    .sidebar-gbmarket img{
+        padding: 22px;
+        width: 16px;
+        height: 20px;
+    }
+    
+    
+    
+    .sidebar-content{
+        /* margin: 6px 6px; */
+        background-color: white;
+        border-radius: 8px;
+        width: 250px;
+        height: 120vh;
+    }
+    
+    .sidebar-avatar-icon{
+        padding: 24px 30px 16px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar-avatar-image img{
+        width: 50px;
+        height: 50px;
+    }
+    .sidebar-avatar-icon1-icon2 img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .sidebar-avatar-name-nomer{
+        text-align: center;
+    }
+    .sidebar-avatar-name{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .sidebar-avatar-nomer{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .sidebar-wallet-balance{
+        background-color: #f5f7fa;
+        border-radius: 10px;
+        padding: 28px 0;
+        margin: 8px 28px 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sidebar-wallet-balance-title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sidebar-wallet-balance-total{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .sidebar-sharet-wallet{
+        background-color: #ffdebf;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px 28px;
+        border-radius: 10px;
+        padding: 8px;
+        color: #ff0000;
+        font-size: 16px 
+    }
+    .sidebar-links{
+        margin:40px 24px 0;
+    }
+    
+    
+    .sidebar-links-item{
+        display: flex;
+        padding:10px;
+    
+    }
+    .sidebar-links-icon img{    
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+    .sidebar-links-title{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+    
+    .sidebar-links-help-log{
+        margin:40px 24px 0;
+    }
+    .sidebar-links-helplog{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebar-links-helplog span{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(173, 173, 173);
+    }
+     
+    .liner{
+        border: 0.8px solid #E6E7EB;
+        width: 100%;
+    }
+    .sidebar-links-helplog img{
+        cursor: pointer;
+        width: 21px;
+        padding: 0 20px 0 0;
+    }
+  }
+
+
