@@ -254,6 +254,18 @@
         padding:10px;
     
     }
+    .sidebar-links-title:hover{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
+    .sidebar-links-title.active{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
     .sidebar-links-icon img{    
         cursor: pointer;
         width: 21px;
@@ -392,6 +404,18 @@
         padding:10px;
     
     }
+    .sidebar-links-title:hover{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
+    .sidebar-links-title.active{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
     .sidebar-links-icon img{    
         cursor: pointer;
         width: 21px;
@@ -528,6 +552,18 @@
         display: flex;
         padding:10px;
     
+    }
+    .sidebar-links-title:hover{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
+    }
+    .sidebar-links-title.active{
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(38, 189, 0);
     }
     .sidebar-links-icon img{    
         cursor: pointer;
