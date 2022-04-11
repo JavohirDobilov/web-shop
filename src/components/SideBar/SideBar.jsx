@@ -124,7 +124,7 @@ const SideBar = () => {
                             </div>
                             <div className={(linkItem === 6 && "active") + (' sidebar-links-title')}>
                                 Wallet history
-                            </div>  
+                            </div>
                         </div>
                         </Link>
                         <Link to="/profil"><div onClick={() => setLinkItem(7)} className='sidebar-links-item'>
@@ -136,37 +136,47 @@ const SideBar = () => {
                             </div>
                         </div>
                         </Link>
-                        <div className='sidebar-links-help-log-item'>
-                            <div className='sidebar-links-item-2'>
-                                <div className='sidebar-links-helplog-full'>
-                                    <div className='liner'>
-
-                                    </div>
-                                    <div className='sidebar-links-helplog'>
-                                        <img src={log} />
-                                        <span>Log</span>
-                                        <img src={arrow} />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="sidebar-links-item-2">
-                                <div className='sidebar-links-helplog-full'>
-                                    <div className='liner'>
-
-                                    </div>
-                                    <div className='sidebar-links-helplog'>
-                                        <img src={helper} />
-                                        <span>Helper</span>
-                                        <img src={arrow} />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
 
                     </div>
+
+
+                    <div className='sidebar-links-down'>
+                        <div className='sidebar-links-help-log-item'>
+                            <div className='liner'>
+                            </div>
+                            
+
+                                    <div className='sidebar-links-help-go'>
+                                        <div className='sidebar-links-helplog'>
+                                            <img src={log} />
+                                            Log
+                                        </div>
+                                        <div className='sidebar-links-arrow'>
+                                            <img src={arrow} />
+                                        </div>
+                                    </div>
+
+                           
+
+                            <div className='liner'>
+                            </div>
+                            
+
+                            <div className='sidebar-links-help-go'>
+                                        <div className='sidebar-links-helplog'>
+                                            <img src={helper} />
+                                            Helper
+                                        </div>
+                                        <div className='sidebar-links-arrow'>
+                                            <img src={arrow} />
+                                        </div>
+                                    </div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
