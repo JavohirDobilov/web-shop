@@ -44,7 +44,7 @@ const Header = () => {
                     <div className='header-timer-circle'>
                         <img src={timer} />
                         <div className="header-timer-data">
-                            
+                        By 09:00 — 23:00
                             
                         </div>
                     </div>
