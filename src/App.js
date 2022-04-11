@@ -13,28 +13,30 @@ import ProfilSetting from "./pages/ProfilSetting/ProfilSetting";
 
 function App() {
   return (
-    <div className="container">
-      <div className='app-body'>
-        <div className="sidebar-section">
-          <SideBar />
-        </div>
-        <div className="right-section">
-          <div className="app-header">
-            <Header />
+    <div className="App">
+      <div className="container">
+        <div className='app-body'>
+          <div className="sidebar-section">
+            <SideBar />
           </div>
-          <Routes>
-            <Route path="/" element={<StoriesPage />} />
-            <Route path="/orders" element={<OrderHistory />} />
-            <Route path="/saveds" element={<SavedStores />} />
-            <Route path="/likes" element={<LikedProducts />} />
-            <Route path="/views" element={<ViewProducts />} />
-            <Route path="/wallets" element={<WalletHistory />} />
-            <Route path="/profil" element={<ProfilSetting />} />
+          <div className="right-section">
+            <div className="app-header">
+              <Header />
+            </div>
+            <Routes>
+              <Route path="/" element={<StoriesPage />} />
+              <Route path="/orders" element={<OrderHistory />} />
+              <Route path="/saveds" element={<SavedStores />} />
+              <Route path="/likes" element={<LikedProducts />} />
+              <Route path="/views" element={<ViewProducts />} />
+              <Route path="/wallets" element={<WalletHistory />} />
+              <Route path="/profil" element={<ProfilSetting />} />
 
-          </Routes>
+            </Routes>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
   );
 }

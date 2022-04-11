@@ -50,14 +50,14 @@ const StoriesPage = () => {
     const salesSlider = [
         {id: 1,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
         {id: 2,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(219, 34, 34)",image: pomidor},
-        {id: 3,title: "Sale 40%",text: "Very tasty pasta",btnText: "FOOD 40%",color: "rgb(117, 206, 0)",image: cuck},
+        {id: 3,title: "Sale 40%",text: "Very tasty pasta",btnText: "FOOD",color: "rgb(117, 206, 0)",image: cuck},
         {id: 4,title: "Sale",text: "Very fullPack",btnText: "ORANGE",color: "#7753F6",image: cuck},
         {id: 5,title: "Collection",text: "Sale full Pack",btnText: "COLLECT",color: "#ff7700",image: apelsin},
         {id: 6,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
         {id: 7,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(247, 0, 0)",image: pomidor},
         {id: 8,title: "Sale",text: "Promocode down",btnText: "ORANGE",color: "#ff7700",image: apelsin},
         {id: 9,title: "Tomato",text: "Buy affortibel",btnText: "PRICING",color: "rgb(247, 0, 0)",image: pomidor},
-        {id: 10,title: "Sale",text: "Very tasty pasta",btnText: "FOOD 40",color: "rgb(117, 206, 0)",image: cuck},
+        {id: 10,title: "Sale",text: "Very tasty pasta",btnText: "FOOD",color: "rgb(117, 206, 0)",image: cuck},
     ]
     const len = salesSlider.length
 

@@ -8,10 +8,8 @@ import filter from "../../img/headerIcons/filter.svg"
 import timer from "../../img/headerIcons/timer.svg"
 import cart from "../../img/headerIcons/cart.svg"
 import { useSelector } from 'react-redux'
-import { DatePicker, Space } from 'antd';
-import 'antd/dist/antd.css';
+import DataCelendar from '../dataCalendar/DataCelendar'
 
-const { RangePicker } = DatePicker;
 
 const Header = () => {
 
@@ -46,9 +44,7 @@ const Header = () => {
                     <div className='header-timer-circle'>
                         <img src={timer} />
                         <div className="header-timer-data">
-                            <Space direction="horizontal" size={10}>
-                                <RangePicker showTime />
-                            </Space>
+                            
                             
                         </div>
                     </div>

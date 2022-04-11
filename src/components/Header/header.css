@@ -331,6 +331,7 @@
         justify-content: space-between;
     }
     .header-timer-data {
+    position: relative;
       font-size: 14px;
       color: red;
       font-weight: 500;
